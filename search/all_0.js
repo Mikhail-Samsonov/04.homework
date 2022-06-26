@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['add_5fcircle_0',['add_circle',['../classDocument.html#a21f2ae1bfa569751aeed74155682bc2c',1,'Document']]],
-  ['add_5fline_1',['add_line',['../classDocument.html#add919796674a5f18f017f261e2e27230',1,'Document']]],
-  ['add_5fsquare_2',['add_square',['../classDocument.html#a40f9334e0dca446699fff2afd84eab49',1,'Document']]],
-  ['application_3',['Application',['../classApplication.html',1,'']]],
-  ['application_2eh_4',['application.h',['../application_8h.html',1,'']]]
+  ['_5fid_0',['_id',['../classIShape.html#a9ccf746498139333e3992caf7c9e9ece',1,'IShape']]],
+  ['_5fid_5felem_1',['_id_elem',['../classIShape.html#a51b774036c2184c686e56a1da37ae128',1,'IShape']]],
+  ['_5fpublisher_2',['_publisher',['../classIShape.html#aa2c47dc3566fd3ce48cfe62c182ddf92',1,'IShape']]]
 ];

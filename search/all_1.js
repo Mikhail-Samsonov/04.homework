@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['baseobservable_0',['BaseObservable',['../classBaseObservable.html',1,'']]],
-  ['black_1',['black',['../color_8h.html#ab87bacfdad76e61b9412d7124be44c1ca1ffd9e753c8054cc61456ac7fac1ac89',1,'color.h']]],
-  ['blue_2',['blue',['../color_8h.html#ab87bacfdad76e61b9412d7124be44c1ca48d6215903dff56238e52e8891380c8f',1,'color.h']]]
+  ['add_5fcircle_0',['add_circle',['../classDocument.html#a21f2ae1bfa569751aeed74155682bc2c',1,'Document']]],
+  ['add_5fline_1',['add_line',['../classDocument.html#add919796674a5f18f017f261e2e27230',1,'Document']]],
+  ['add_5fsquare_2',['add_square',['../classDocument.html#a40f9334e0dca446699fff2afd84eab49',1,'Document']]],
+  ['application_3',['Application',['../classApplication.html',1,'']]],
+  ['application_2eh_4',['application.h',['../application_8h.html',1,'']]]
 ];

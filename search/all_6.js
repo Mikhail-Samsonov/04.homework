@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['id_0',['id',['../classIShape.html#aa953fbb0020422f64e515f0a00e0e65c',1,'IShape']]],
-  ['id_5felem_1',['id_elem',['../classIShape.html#a07a20bb077414a02894ed4ec18f0bfd2',1,'IShape']]],
-  ['idisplay_2',['IDisplay',['../classIDisplay.html',1,'']]],
-  ['importdocument_3',['importDocument',['../classApplication.html#a6f2e6a0a9b7c2fd4f845eeea1ad8f93e',1,'Application']]],
-  ['ishape_4',['IShape',['../classIShape.html',1,'IShape'],['../classIShape.html#a78dae4bc977c9a936ff4f6e170e1774b',1,'IShape::IShape()']]]
+  ['get_5fcolor_0',['get_color',['../classColorState.html#acf55eff994301da4e3c4cdaa79441207',1,'ColorState']]],
+  ['get_5fid_1',['get_id',['../classDocument.html#a9189cec5d1d853c9cba4b89883812c32',1,'Document']]],
+  ['get_5fzoom_2',['get_zoom',['../classZoomState.html#a1d8a6d78525f9cbc64481b55940a98b6',1,'ZoomState']]],
+  ['green_3',['green',['../color_8h.html#ab87bacfdad76e61b9412d7124be44c1ca9f27410725ab8cc8854a2769c7a516b8',1,'color.h']]]
 ];

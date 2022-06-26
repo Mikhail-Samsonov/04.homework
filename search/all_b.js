@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['publisher_0',['Publisher',['../classPublisher.html',1,'Publisher'],['../classPublisher.html#a64182282c8ec14ee63a8eb76169047a2',1,'Publisher::Publisher()']]],
-  ['publisher_1',['publisher',['../classIShape.html#aba4d99f80639f8d9962fecc616ec447b',1,'IShape']]],
-  ['publisher_2eh_2',['publisher.h',['../publisher_8h.html',1,'']]]
+  ['observable_0',['Observable',['../classObservable.html',1,'']]],
+  ['observer_1',['Observer',['../classObserver.html',1,'']]],
+  ['operator_3c_3c_2',['operator&lt;&lt;',['../color_8h.html#adc183bbf70cdced21c73392cb32755a3',1,'color.h']]]
 ];

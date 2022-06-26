@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['publisher_0',['Publisher',['../classPublisher.html#a64182282c8ec14ee63a8eb76169047a2',1,'Publisher']]]
+  ['publisher_0',['Publisher',['../classPublisher.html#a179b014e6e52cd2b8be1a6c85eda0b79',1,'Publisher']]]
 ];
