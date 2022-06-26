@@ -3,73 +3,85 @@
 
 #include "publisher.h"
 
-class IShape {
+class IShape
+{
 public:
-    IShape() {
-        ++id;
-        set_id();
-    }
+	IShape()
+	{
+		++_id;
+		set_id();
+	}
 
-    virtual ~IShape() = default;
+	virtual ~IShape() = default;
 
-    virtual void draw(std::ostream &out) = 0;
+	virtual void draw(std::ostream& out) = 0;
 
-    void set_id() {
-        id_elem = id;
-    }
+	void set_id()
+	{
+		_id_elem = _id;
+	}
 
 protected:
-    static std::size_t id;
-    std::size_t id_elem;
-    std::shared_ptr<Publisher> publisher;
+	static std::size_t _id;
+	std::size_t _id_elem;
+	std::shared_ptr<Publisher> _publisher;
 };
 
-std::size_t IShape::id = 0;
+std::size_t IShape::_id = 0;
 
-class Line : public IShape {
+class Line : public IShape
+{
 public:
-    Line(std::size_t id_doc, ZoomState *zoom, ColorState *color)
-            : IShape() {
-        publisher = publisher->create(id_doc, zoom, color, id_elem, m_name);
-    };
+	Line(std::size_t id_doc, ZoomState* zoom, ColorState* color)
+			: IShape()
+	{
+		_publisher = _publisher->create(id_doc, zoom, color, _id_elem, _name);
+	};
 
-    void draw(std::ostream &out) override {
-        out << "I'm a " << m_name << " #" << id_elem << std::endl;
-    }
+	void draw(std::ostream& out) override
+	{
+		out << "I'm a " << _name << " #" << _id_elem << std::endl;
+	}
 
 private:
-    std::string m_name = "line";
+	std::string _name = "line";
 };
 
-class Circle : public IShape {
+class Circle : public IShape
+{
 public:
-    Circle(std::size_t id_doc, ZoomState *zoom, ColorState *color)
-            : IShape() {
-        publisher = publisher->create(id_doc, zoom, color, id_elem, m_name);
-    };
+	Circle(std::size_t id_doc, ZoomState* zoom, ColorState* color)
+			: IShape()
+	{
+		_publisher = _publisher->create(id_doc, zoom, color, _id_elem, _name);
+	};
 
 
-    void draw(std::ostream &out) override {
-        out << "I'm a " << m_name << " #" << id_elem << std::endl;
-    }
+	void draw(std::ostream& out) override
+	{
+		out << "I'm a " << _name << " #" << _id_elem << std::endl;
+	}
 
 private:
-    std::string m_name = "circle";
+	std::string _name = "circle";
 };
 
-class Square : public IShape {
+class Square : public IShape
+{
 public:
-    Square(std::size_t id_doc, ZoomState *zoom, ColorState *color)
-            : IShape() {
-        publisher = publisher->create(id_doc, zoom, color, id_elem, m_name);
-    };
+	Square(std::size_t id_doc, ZoomState* zoom, ColorState* color)
+			: IShape()
+	{
+		_publisher = _publisher->create(id_doc, zoom, color, _id_elem, _name);
+	};
 
-    void draw(std::ostream &out) override {
-        out << "I'm a " << m_name << " #" << id_elem << std::endl;
-    }
+	void draw(std::ostream& out) override
+	{
+		out << "I'm a " << _name << " #" << _id_elem << std::endl;
+	}
 
 private:
-    std::string m_name = "square";
+	std::string _name = "square";
 };
 
 #endif //EDITOR_SHAPE_H

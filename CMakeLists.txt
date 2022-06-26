@@ -8,6 +8,8 @@ project(editor VERSION ${PATCH_VERSION})
 
 add_executable(editor main.cpp)
 
+target_include_directories(editor PRIVATE ${CMAKE_SOURCE_DIR}/src)
+
 set_target_properties(editor PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)
 set_target_properties(editor PROPERTIES COMPILE_FLAGS "-fsanitize=address -fno-omit-frame-pointer")
 set_target_properties(editor PROPERTIES LINK_FLAGS "-fsanitize=address -fno-omit-frame-pointer")
